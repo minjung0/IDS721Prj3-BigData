@@ -49,11 +49,13 @@ After modifying these parameters, run the `app.py` file to resize your images. T
 
 <img width="493" alt="Screenshot 2023-04-14 at 2 31 19 AM" src="https://user-images.githubusercontent.com/90014065/231961726-4fe511f8-1849-47cf-b9c7-1e2077d4ea12.png">
 
+![dogs1](https://user-images.githubusercontent.com/90014065/232126273-cc71f46b-e0a5-4316-b23e-cc506bb6ad24.jpeg)
+
 - Resized images
 
 <img width="557" alt="Screenshot 2023-04-14 at 2 35 11 AM" src="https://user-images.githubusercontent.com/90014065/231962344-60bbc450-754e-43b7-9c08-8902a1f9e095.png">
 
-
+![resized_dogs1](https://user-images.githubusercontent.com/90014065/232126473-e09dc186-ea53-4ee6-9232-96a7b225b477.jpeg)
 
 
 
