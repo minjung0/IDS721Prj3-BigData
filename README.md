@@ -20,9 +20,15 @@ ________
 
 ### 2. Upload image files to the storage 
 
-To resize images using Google Cloud Storage, you need to upload the images you want to resize to a Google Cloud Storage bucket. The images must be in one of the following formats: '.jpg', '.jpeg', '.png', '.bmp', or '.gif'.
+1. To resize images using Google Cloud Storage, you need to upload the images you want to resize to a Google Cloud Storage bucket. The images must be in one of the following formats: '.jpg', '.jpeg', '.png', '.bmp', or '.gif'.
 
-Once the images are uploaded, you can modify the following parameters in the app.py file:
+2. Once the images are uploaded, install required packages for using `app.py`.
+
+```
+pip install google-cloud-storage pillow
+```
+
+3. You can modify the following parameters in the `app.py` file:
 
 - Credential path/name: specify the path and the name where your credentials are located.
 - Bucket name: specify the name of the Google Cloud Storage bucket where the images are located.
@@ -41,7 +47,7 @@ new_height = 800
 new_width = 600
 ```
 
-After modifying these parameters, run the `app.py` file to resize your images. The resized images will be saved in the folder you specified within the bucket and folder.
+4. After modifying these parameters, run the `app.py` file to resize your images. The resized images will be saved in the folder you specified within the bucket.
 
 ### 3. The result 
 
